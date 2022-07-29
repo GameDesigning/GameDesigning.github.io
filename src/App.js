@@ -16,7 +16,7 @@ function App() {
     <div className="App" >
       <header className="App-header">
         <h1>Farm Idle Game</h1>
-        <button type="button" onClick={() => setChickRate(chickRate + 1)}>Click Me!, {chickRate}</button>
+        <button type="button" onClick={() => setChickRate(chickRate + 1)}>Click to increase chicken production rate</button>
         <p>Chickens Making: {chickRate} per second</p>
       </header>
     </div>
