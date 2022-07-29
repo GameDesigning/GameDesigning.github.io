@@ -1,8 +1,11 @@
 import './App.css';
 
 function App() {
+  
+  chickenClick = () => {
+    console.log('this is:', this);
+  };
 
-  // chickenClick = () 
   return (
     <div className="App" >
       <header className="App-header">
