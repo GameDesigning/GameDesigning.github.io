@@ -6,6 +6,7 @@ import React, {useState} from 'react';
 // const chickenRate = 0;
 // const total = 0; 
 
+var start = Date.now()
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <header className="App-header">
         <h1>Farm Idle Game</h1>
         <button type="button" onClick={() => setChickRate(chickRate + 1)}>Click Me!, {chickRate}</button>
+        <p>Chickens Making: {chickRate} per second</p>
       </header>
     </div>
   );
