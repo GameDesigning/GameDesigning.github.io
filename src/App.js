@@ -14,7 +14,7 @@ function App() {
     <div className="App" >
       <header className="App-header">
         <h1>Farm Idle Game</h1>
-        <button type="button" onClick={chickenClick}>Click Me!</button>
+        <button type="button" onClick={chickenClick}>Click Me!, {multiplier}</button>
       </header>
     </div>
   );
