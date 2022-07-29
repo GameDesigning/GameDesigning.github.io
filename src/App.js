@@ -6,7 +6,7 @@ const multiplier = 0;
 
 function App() {
 
-  function chickenClick() {
+  function chickClick() {
     multiplier = multiplier + 1;
   }
 
@@ -14,7 +14,7 @@ function App() {
     <div className="App" >
       <header className="App-header">
         <h1>Farm Idle Game</h1>
-        <button type="button" onClick={chickenClick}>Click Me!, {multiplier}</button>
+        <button type="button" onClick={chickClick}>Click Me!, {multiplier}</button>
       </header>
     </div>
   );
